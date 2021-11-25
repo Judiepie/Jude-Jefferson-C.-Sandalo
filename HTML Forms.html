@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> HTML FORM </title>
+        <style>
+             label {display: inline-block;}
+             #Address {display: block;}
+             #Gender {font-size: large;font-family: Impact;}
+           
+            
+            
+        </style>
+    </head>
+<body>
+    <h1>Please fill up the following:</h1>
+    <form>
+        <label for="First Name" id="label1">First Name: </label>
+        <input required type="text" id="FirstName" name="FirstName" placeholder="First Name">
+        <br><br>
+
+        <label for="Middle Name" id="label1">Middle Name: </label>
+        <input required type="text" id="MiddleName" name="MiddleName" placeholder="Middle Name">
+        <br><br>
+
+        <label for="Last Name" id="label1">Last Name: </label>
+        <input required type="text" id="LastName" name="LastName" placeholder="Last Name">
+        <br><br>
+
+        <label for="Gender" id="Gender">Gender:</label><br>
+        <label>Male:</label><input type="radio" id="Gender1" name="Gender" value="Male">
+        <label>Female:</label><input type="radio" id="Gender2" name="Gender" value="Female">
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input required type="email" id="email" name="email" placeholder="11ict2.sandalo@gmail.com">
+        <br><br>
+
+        <label for="Address" id="Address">Address: </label>
+        <textarea id="Address1" name="Address" rows="1" cols="40"></textarea> 
+        <br><br>
+
+        <label for="Hobbies" id="Hobbies">Hobbies: </label>
+        <table><td><input type="checkbox" id="Hobbies1">Computer Games <input type="checkbox" id="Hobbies2"> Cooking
+        <input type="checkbox" id="Hobbies3"> Singing <input type="checkbox" id="Hobbies3"> Sleeping 
+        </td> </table>
+        <br><br>
+
+        <label for="FavoriteColor" id="Fcolor">Favorite Color:</label>
+        <select name="FavoriteColor" id="FColors1">
+            <option value="red" id="red1"> Red </option>
+            <option value="blue" id="blue1"> Blue</option>
+            <option value="black" id="black1"> Black </option>
+            <option value="green" id="green1"> Green </option>
+            <option value="yellow" id="yellow1"> Yellow </option>
+			<option value="pink" id="pink1"> Pink </option>
+			<option value="purple" id="purple1"> Purple </option>
+        </select>
+        <br><br>
+
+        <label for="Yourself" id="Yourself"> Say something about Yourself: </label> <br>
+        <textarea id="Yourself1" name="yourself" rows="5" cols="40"></textarea>
+        <br>
+        <input type="submit" value="submit"><input type="reset" value="clear">
+        
+       
+    </form>
+</body>
+</html>
